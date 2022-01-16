@@ -5,29 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <Link rel="stylesheet" href="fontello/css/fontello.css">
-    <title>Welcomo to kokoa Talk</title>
-    <style>
-      body{
-        font-family: "fontello";
-      }
-    </style>
+    <Link rel="stylesheet" href="css/styles.css">
+    <title>Welcome to Kokoad Clone</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
-        <spa>No service</spa>
-        &#xf1eb
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+        
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        &#xf242
-        &#xe803       
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>       
       </div>
-
+      
     </div>
-    
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoad Clone</h1>
+      <p class="welcome-header__text">if you have Kokoa Account</p>
+    </header>
+    <form id= "Login-form">
+      <input type="text" placeholder="Email or phone">
+      <input type="password" placeholder="Password">
+      <input type="submit" placeholder="Log In">
+    <a href="#">Find Koka Account or Password</a>
+
+    </form>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   </body>
 </html>
